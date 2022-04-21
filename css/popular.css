@@ -1,0 +1,37 @@
+/* POPULAR CARD */
+.popular-appartment-card {
+    display: flex;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 16px #0000002e;
+    flex-grow: 1;
+    transition: all 0.2s;
+}
+
+.popular-appartment-card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 5px 11px -5px #000000;
+}
+
+.popular-appartment-card img {
+    height: auto;
+    border-radius: 1rem 0 0 1rem;
+    width: 40%;
+    margin-right: 0.5rem;
+    object-fit: cover;
+}
+
+.popular-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-appartment-card .stars {
+    margin-top: auto;
+}
+
+.popular h3 {
+    display:flex;
+    justify-content:space-between;
+}

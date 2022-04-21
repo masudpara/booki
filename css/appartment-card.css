@@ -1,0 +1,35 @@
+/* APPARTMENT CARD*/
+.appartment-card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 0 16px #0000002e;
+    flex-grow: 1;
+    transition: all 0.2s;
+    flex-basis: 30%;
+    min-width: 15rem;
+}
+
+.appartment-card:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 5px 11px -5px #000000;
+}
+
+.appartment-card img {
+    border-radius: 1rem 1rem 0 0;
+    height: 8rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.appartment-card p, .appartment-card h3, .popular-desc p, .popular-desc h3 {
+    margin: 0.2rem;
+}
+
+.blue {
+    color: #0065fc;
+}
+
+.grey {
+    color: #d9d9d9;
+}
