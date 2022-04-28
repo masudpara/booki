@@ -45,6 +45,6 @@
 
 @media (max-width: 768px) {
     .appartment-list .popular-box {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
