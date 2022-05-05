@@ -1,86 +1,127 @@
 /* ACTIVITIES */
 
 .activity {
-    display: grid;
-    column-gap: 2rem;
-    margin: 4rem 0;
+  display: grid;
+  column-gap: 2rem;
+  margin: 4rem 0;
+}
+.activityCardTitle {
+  grid-column: 1/-1;
+}
+.activityCard {
+  box-shadow: 0 0 20px #0000002e;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition-duration: 0.1s;
+}
+.activityCard:hover {
+  transform: scale(1.01);
+}
+.activityCardWrapimg {
+  position: relative;
+  flex: 1;
+}
+.activityCardWrapimgImg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.activityCardTitle {
+  margin: 1.2rem 1.5rem;
+}
+
+@media (min-width: 1100px) {
+  .activity {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
   }
-  .activityTitle {
-    grid-column: 1/-1;
+  .activityCard1 {
+    grid-column: 1/2;
+    grid-row: 2/7;
   }
-  .activityCard {
-    box-shadow: 0 0 20px #0000002e;
-    border-radius: 1rem;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition-duration: 0.1s;
+  .activityCard2 {
+    grid-column: 2/3;
+    grid-row: 2/5;
   }
-  .activityCard:hover {
-    transform: scale(1.01);
+  .activityCard3 {
+    grid-column: 3/4;
+    grid-row: 2/7;
   }
-  .activityCardWrapimg {
-    position: relative;
-    flex: 1;
+  .activityCard4 {
+    grid-column: 4/5;
+    grid-row: 2/3;
   }
-  .activityCardWrapimgImg {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  .activityCard5 {
+    grid-column: 2/3;
+    grid-row: 6/7;
   }
-  .activityCardTitle {
-    margin: 1.2rem 1.5rem;
+  .activityCard6 {
+    grid-column: 4/5;
+    grid-row: 4/7;
   }
-  
-  @media (min-width: 1100px) {
-    .activity {
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
-    }
-    .activityCard1 {
-      grid-row: 2/7;
-      grid-column: 1/2;
-    }
-    .activityCard2 {
-      grid-column: 2/3;
-      grid-row: 2/5;
-    }
-    .activityCard3 {
-      grid-column: 3/4;
-      grid-row: 2/7;
-    }
-    .activityCard4 {
-      grid-column: 4/5;
-      grid-row: 2/3;
-    }
-    .activityCard5 {
-      grid-column: 2/3;
-      grid-row: 6/7;
-    }
-    .activityCard6 {
-      grid-column: 4/5;
-      grid-row: 4/7;
-    }
+}
+@media (max-width: 1100px) {
+  .activity {
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 12rem 12rem;
   }
-  @media (max-width: 1100px) {
-    .activity {
-      row-gap: 2rem;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 12rem 12rem;
-    }
+  .activityCard1 {
+    grid-column: 1;
+    grid-row: 2;
   }
-  @media (max-width: 992px) {
-    .activity {
-      row-gap: 2rem;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: auto 12rem 12rem 12rem;
-    }
+  .activityCard2 {
+    grid-column: 2;
+    grid-row: 2;
   }
-  @media (max-width: 768px) {
-    .activity {
-      row-gap: 2rem;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
-    }
+  .activityCard3 {
+    grid-column: 3;
+    grid-row: 2;
   }
+  .activityCard4 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .activityCard5 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .activityCard6 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+}
+@media (max-width: 992px) {
+  .activity {
+    row-gap: 2rem;
+    grid-template-columns: 1fr 0 0;
+    grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+  }
+  .activityCard1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .activityCard2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .activityCard3 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .activityCard4 {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .activityCard5 {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  .activityCard6 {
+    grid-column: 1;
+    grid-row: 7;
+  }
+}

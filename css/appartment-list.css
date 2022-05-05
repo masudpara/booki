@@ -18,7 +18,7 @@
     flex-basis: 33%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .appartment-list {
       flex-direction: column-reverse;
   }  
@@ -34,17 +34,10 @@
     gap: 1rem;
     justify-content: space-around;
     margin-bottom: 1rem;
-    /*flex-grow: */
 }
 
 .appartment-list .popular-box {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-@media (max-width: 768px) {
-    .appartment-list .popular-box {
-        flex-direction: column;
-    }
 }

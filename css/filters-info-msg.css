@@ -48,3 +48,12 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 992px) {
+    .filter-list h1 {
+      width: 100%;
+    }
+    .filter-list {
+      gap: 14px;
+    }
+  }

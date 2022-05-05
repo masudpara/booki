@@ -9,6 +9,10 @@ a {
 }
 
 /* BODY */
+
+body{
+    margin: 0;
+}
 .wrapper {
     padding: 0 2rem;
 }
