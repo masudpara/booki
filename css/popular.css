@@ -8,6 +8,7 @@
     flex-grow: 1;
     transition: all 0.2s;
     height: 150px;
+    cursor: pointer;
 }
 
 .popular-appartment-card:hover {

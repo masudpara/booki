@@ -8,6 +8,7 @@
     transition: all 0.2s;
     flex-basis: 30%;
     min-width: 15rem;
+    cursor: pointer;
 }
 
 .appartment-card:hover {
