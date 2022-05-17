@@ -7,7 +7,7 @@
     box-shadow: 0 0 16px #0000002e;
     flex-grow: 1;
     transition: all 0.2s;
-    height: 8rem;
+    height: 150px;
 }
 
 .popular-appartment-card:hover {
