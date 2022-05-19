@@ -2,9 +2,9 @@
 .filter-list {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
     flex-wrap: wrap;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 .filter {
@@ -16,14 +16,14 @@
 .filter .fa-solid {
     color: #0065fc;
     background-color: #deebff;
-    padding: 1rem;
+    padding: 16px;
     border-radius: 50%;
     margin: -2px;
 }
 
 .filter span {
     font-weight: bold;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .filter:hover {
@@ -35,13 +35,13 @@
 .info-msg {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .info-msg .fa-solid {
     color: #0065fc;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 24px;
+    height: 24px;
     border: 1px solid #f2f2f2;
     border-radius: 50%;
     display: flex;

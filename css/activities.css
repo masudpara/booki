@@ -2,15 +2,15 @@
 
 .activity {
   display: grid;
-  column-gap: 2rem;
-  margin: 4rem 0;
+  column-gap: 32px;
+  margin: 64px 0;
 }
 .activityCardTitle {
   grid-column: 1/-1;
 }
 .activityCard {
   box-shadow: 0 0 20px #0000002e;
-  border-radius: 1rem;
+  border-radius: 16px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -30,13 +30,13 @@
   object-fit: cover;
 }
 .activityCardTitle {
-  margin: 1.2rem 1.5rem;
+  margin: 19.2px 24px;
 }
 
 @media (min-width: 1100px) {
   .activity {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+    grid-template-rows: auto 224px 32px 32px 32px 224px;
   }
   .activityCard1 {
     grid-column: 1/2;
@@ -65,9 +65,9 @@
 }
 @media (max-width: 1100px) {
   .activity {
-    row-gap: 2rem;
+    row-gap: 32px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 12rem 12rem;
+    grid-template-rows: auto 192px 192px;
   }
   .activityCard1 {
     grid-column: 1;
@@ -98,7 +98,7 @@
   .activity {
     row-gap: 2rem;
     grid-template-columns: 1fr 0 0;
-    grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+    grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
   }
   .activityCard1 {
     grid-column: 1;

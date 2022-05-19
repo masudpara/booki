@@ -2,8 +2,8 @@
 .popular-appartment-card {
     display: flex;
     background-color: white;
-    border-radius: 1rem;
-    padding: 0.5rem;
+    border-radius: 16px;
+    padding: 8px;
     box-shadow: 0 0 16px #0000002e;
     flex-grow: 1;
     transition: all 0.2s;
@@ -18,9 +18,9 @@
 
 .popular-appartment-card img {
     height: auto;
-    border-radius: 1rem 0 0 1rem;
+    border-radius: 16px 0 0 16px;
     width: 40%;
-    margin-right: 0.5rem;
+    margin-right: 8px;
     object-fit: cover;
 }
 

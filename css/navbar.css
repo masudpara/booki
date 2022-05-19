@@ -13,7 +13,7 @@ nav {
 
 
 nav a {
-    padding: 2rem;
+    padding: 32px;
     border-top: 3px solid transparent;
 }
 
@@ -23,7 +23,7 @@ nav a:hover {
 
 #logo {
     margin-right: auto;
-    padding: 0 2rem;
+    padding: 0 32px;
 }
 
 .sub-nav {

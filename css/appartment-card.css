@@ -1,13 +1,13 @@
 /* APPARTMENT CARD*/
 .appartment-card {
     background-color: white;
-    border-radius: 1rem;
-    padding: 0.5rem;
+    border-radius: 16px;
+    padding: 8px;
     box-shadow: 0 0 16px #0000002e;
     flex-grow: 1;
     transition: all 0.2s;
     flex-basis: 30%;
-    min-width: 15rem;
+    min-width: 240px;
     cursor: pointer;
 }
 
@@ -17,14 +17,14 @@
 }
 
 .appartment-card img {
-    border-radius: 1rem 1rem 0 0;
-    height: 8rem;
+    border-radius: 16px 16px 0 0;
+    height: 128px;
     width: 100%;
     object-fit: cover;
 }
 
 .appartment-card p, .appartment-card h3, .popular-desc p, .popular-desc h3 {
-    margin: 0.2rem;
+    margin: 3px;
 }
 
 .blue {
