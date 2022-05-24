@@ -97,7 +97,7 @@
 @media (max-width: 992px) {
   .activity {
     row-gap: 2rem;
-    grid-template-columns: 1fr 0 0;
+    grid-template-columns: 1fr;
     grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
   }
   .activityCard1 {
