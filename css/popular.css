@@ -33,7 +33,7 @@
     margin-top: auto;
 }
 
-.popular h3 {
+.popular h2 {
     display:flex;
     justify-content:space-between;
 }
